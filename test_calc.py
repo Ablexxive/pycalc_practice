@@ -52,3 +52,7 @@ def test_long():
     inpt = "5+1*2-6/2"
     ans = calculate_input(inpt)
     assert ans == 4
+
+    inpt = "8+100+28-198/20*2+1381"
+    ans = calculate_input(inpt)
+    assert ans == 1497.2
